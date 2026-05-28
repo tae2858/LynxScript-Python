@@ -58,12 +58,20 @@ python -m lynxscript.main -c <path_to_script>.lxs -o <output_path>.json
 
 ## Installation
 
+You can install `lynxscript` directly from PyPI:
+
+```bash
+pip install lynxscript
+```
+
+Or install it locally in editable mode for development:
+
 1. Clone the repository.
-2. Go to the project directory and install the package in editable mode:
+2. Go to the project directory and run:
    ```bash
    pip install -e .
    ```
-3. You can now use the `lync` command directly in your terminal to compile LynxScript files!
+3. You can now use the `lync` command directly in your terminal!
 
 ## Development & Testing
 
